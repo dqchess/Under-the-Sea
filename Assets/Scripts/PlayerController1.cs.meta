@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 6f4bdcdeb70fc3a4daeafb41502aac14
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - animator: {instanceID: 0}
+  - rb2D: {instanceID: 0}
+  - splitMass: {instanceID: 0}
+  - food: {instanceID: 0}
+  - Trap: {instanceID: 0}
+  - joystick: {fileID: 8170153791668043265, guid: 0d230cc8be529a542a08cb878ab14b18,
+      type: 3}
+  - chara1: {instanceID: 0}
+  - chara2: {instanceID: 0}
+  - chara3: {instanceID: 0}
+  - shooting: {instanceID: 0}
+  - splitting: {instanceID: 0}
+  - nama: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

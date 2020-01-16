@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Food
+  - SplitMass
+  - Bot
+  - Trap
+  - Bot4
+  - Bot5
+  - Bot1
+  - Bot2
+  - Bot3
+  - Bot6
+  - Bot7
+  - Bot8
+  - Bot9
+  - Bot10
+  - Bot11
+  - Bot12
+  - Bot13
+  - Bot14
+  - Bot15
+  - bubble
+  - jebakan
+  - FoodFish
+  - bubbleBuff
+  - foodShoot
+  - botFood
+  - botFood1
+  - botFood2
+  - botFood3
+  - botFood4
+  - botFood5
+  - botFood6
+  - botFood7
+  - botFood8
+  - botFood9
+  - botFood10
+  - botFood11
+  - botFood12
+  - botFood13
+  - botFood14
+  - botFood15
+  - botFood16
+  - botFood17
+  - botFood18
+  - botFood19
+  - botFood20
+  - botFood21
+  - botFood22
+  - botFood23
+  - botFood24
+  - botFood25
+  - botFood26
+  - botFood27
+  - botFood28
+  - botFood29
+  - botFood30
+  - botFood31
+  - botFood32
+  - botFood33
+  - botFood34
+  - botFood35
+  - botFood36
+  - botFood37
+  - botFood38
+  - botFood39
+  - botFood40
+  - botFood41
+  - botFood42
+  - botFood43
+  - botFood44
+  - botFood45
+  - ControllerButton
+  - a
+  - backgroundMenu
+  - level2
+  - background
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

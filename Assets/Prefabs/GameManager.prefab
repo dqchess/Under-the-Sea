@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1412233316772382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4784762466664042}
+  - component: {fileID: 114854960158233194}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4784762466664042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412233316772382}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114854960158233194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412233316772382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 775ca3ab7234cb1419048984300debbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 1
+  currentTime: 0
+  startingTime: 150
+  currentScore: 0
+  currentHighScore: 0
+  eatenFood: 1
+  testP: 0
+  camSize: 5
+  foodEat: 0
+  botScore: 0
+  userHighScore: 
+  playerPrefab: {fileID: 1369636560395714, guid: bec1770cce4cd8645b6f912d6e02f9a3,
+    type: 3}
+  chara1: {fileID: 0}
+  chara2: {fileID: 0}
+  chara3: {fileID: 0}
+  test: 0
+  backgroundMusic: BackgroundMusic
+  mainMenu: MainMenu
+  gameOverBGM: GameOver
+  bot1Prefab: {fileID: 697429764084774593, guid: d143f0c669e4aa042b3cd8a0e3beaf0e,
+    type: 3}
+  bot2Prefab: {fileID: 697429764084774593, guid: ed7bede8b812e794e8cdf6228874e3b3,
+    type: 3}
+  bot3Prefab: {fileID: 697429764084774593, guid: fd62dd150d9e55d4e9e182a4d2de741e,
+    type: 3}
+  bot4Prefab: {fileID: 697429764084774593, guid: 8abcab6e0e39e834d9ab88db5f737752,
+    type: 3}
+  bot5Prefab: {fileID: 697429764084774593, guid: f82688d37a970b548b40d6ebcb6bd394,
+    type: 3}
+  bot6Prefab: {fileID: 0}
+  bot7Prefab: {fileID: 0}
+  bot8Prefab: {fileID: 0}
+  bot9Prefab: {fileID: 0}
+  bot10Prefab: {fileID: 0}
+  bot11Prefab: {fileID: 0}
+  bot12Prefab: {fileID: 0}
+  bot13Prefab: {fileID: 0}
+  bot14Prefab: {fileID: 0}
+  bot15Prefab: {fileID: 0}
+  botFood1Prefab: {fileID: 0}
+  botFood2Prefab: {fileID: 0}
+  botFood3Prefab: {fileID: 0}
+  botFood4Prefab: {fileID: 0}
+  botFood5Prefab: {fileID: 0}
+  botFood6Prefab: {fileID: 0}
+  botFood7Prefab: {fileID: 0}
+  botFood8Prefab: {fileID: 0}
+  botFood9Prefab: {fileID: 0}
+  botFood10Prefab: {fileID: 0}
+  botFood11Prefab: {fileID: 0}
+  botFood12Prefab: {fileID: 0}
+  botFood13Prefab: {fileID: 0}
+  botFood14Prefab: {fileID: 0}
+  botFood15Prefab: {fileID: 0}
+  botFood16Prefab: {fileID: 0}
+  botFood17Prefab: {fileID: 0}
+  botFood18Prefab: {fileID: 0}
+  botFood19Prefab: {fileID: 0}
+  botFood20Prefab: {fileID: 0}
+  botFood21Prefab: {fileID: 0}
+  botFood22Prefab: {fileID: 0}
+  botFood23Prefab: {fileID: 0}
+  botFood24Prefab: {fileID: 0}
+  botFood25Prefab: {fileID: 0}
+  botFood26Prefab: {fileID: 0}
+  botFood27Prefab: {fileID: 0}
+  botFood28Prefab: {fileID: 0}
+  botFood29Prefab: {fileID: 0}
+  botFood30Prefab: {fileID: 0}
+  botFood31Prefab: {fileID: 0}
+  botFood32Prefab: {fileID: 0}
+  botFood33Prefab: {fileID: 0}
+  botFood34Prefab: {fileID: 0}
+  botFood35Prefab: {fileID: 0}
+  botFood36Prefab: {fileID: 0}
+  botFood37Prefab: {fileID: 0}
+  botFood38Prefab: {fileID: 0}
+  botFood39Prefab: {fileID: 0}
+  botFood40Prefab: {fileID: 0}
+  botFood41Prefab: {fileID: 0}
+  botFood42Prefab: {fileID: 0}
+  botFood43Prefab: {fileID: 0}
+  botFood44Prefab: {fileID: 0}
+  botFood45Prefab: {fileID: 0}
+  menuPrefab: {fileID: 0}
+  panelTombolControler: {fileID: 0}
+  highscoreBar: {fileID: 0}
+  panelLevel1: {fileID: 0}
+  panelLevel2: {fileID: 0}
+  panelWinner: {fileID: 0}
+  targetScoreLevel1: 1000
+  targetScoreLevel2: 1000
+  currentLevel: 0
+  latar: 1
+  pilihanLatar: 1
+  user: {fileID: 0}

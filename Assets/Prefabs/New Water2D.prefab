@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2144558413887161966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4188393101362013649}
+  - component: {fileID: 3396821355072896570}
+  - component: {fileID: 4739293950172049656}
+  - component: {fileID: 5927344469769206136}
+  - component: {fileID: 7386909174824845465}
+  - component: {fileID: 738679149261986572}
+  m_Layer: 0
+  m_Name: New Water2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4188393101362013649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144558413887161966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.13984, y: 3.5535698, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3396821355072896570
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144558413887161966}
+  m_Mesh: {fileID: 0}
+--- !u!23 &4739293950172049656
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144558413887161966}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 45e9df84099080b4bb3d4bcf60e6d7ba, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &5927344469769206136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144558413887161966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea03457dd2337d4eabc8643ca6a7a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitsPerUV: {x: 5.12, y: 20.48}
+  unitsPerUV2: {x: 1, y: 1}
+  xSegments: 30
+  zSegments: 1
+  width: 10
+  height: 6
+  pixelsPerUnit: 100
+  segmentsPerUnit: 3
+  verticalTiling: 1
+  showMesh: 0
+  createCollider: 1
+  colliderOffset: 0.5
+  handlesPosition:
+  - {x: 0, y: 3, z: 0}
+  - {x: 0, y: -3, z: 0}
+  - {x: -5, y: 0, z: 0}
+  - {x: 5, y: 0, z: 0}
+  curentWaterArea: 60
+  use3DCollider: 0
+  boxColliderZOffset: 0.5
+  boxColliderZSize: 1
+  handleScale: 1
+  cubeWater: 0
+  zSize: 10
+  surfaceVertsCount: 62
+  waterHeight: 6
+  waterWidth: 10
+  useHandles: 1
+--- !u!114 &7386909174824845465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144558413887161966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39104e7689a801045a284cca0676d421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buoyantForceMode: 1
+  surfaceWaves: 0
+  waterType: 0
+  animationMethod: 0
+  clippingMethod: 0
+  flowDirection: 3
+  controlPointPos: 0
+  sineWavesType: 0
+  particleSystemInstantiation: 0
+  sineAmplitudes: []
+  sineStretches: []
+  phaseOffset: []
+  defaultWaterAreaOffset: 0
+  sineWaves: 4
+  springConstant: 0.02
+  damping: 0.04
+  spread: 0.03
+  floatHeight: 3
+  bounceDamping: 0.15
+  forcePositionOffset: {x: 0, y: 0, z: 0}
+  collisionVelocity: 0.0125
+  topEdge: {fileID: 0}
+  bottomEdge: {fileID: 0}
+  leftEdge: {fileID: 0}
+  rightEdge: {fileID: 0}
+  particleS: {fileID: 0}
+  constantWaterArea: 0
+  waterDisplacement: 0
+  animateWaterArea: 0
+  waveSpeed: 8
+  velocityFilter: -2
+  waterDensity: 1
+  polygonCorners: 8
+  maxDrag: 500
+  maxLift: 200
+  dragCoefficient: 0.4
+  liftCoefficient: 0.25
+  timeStep: 0.5
+  maxAmplitude: 0.1
+  minAmplitude: 0.01
+  maxStretch: 2
+  minStretch: 0.8
+  maxPhaseOffset: 0.1
+  minPhaseOffset: 0.02
+  maxVelocity: 0.1
+  minVelocity: -0.1
+  forceScale: 4
+  liniarBFDragCoefficient: 0.1
+  liniarBFAbgularDragCoefficient: 0.01
+  interactionRegion: 1
+  waterLineCurrentGlobalPos: {x: 0, y: 0, z: 0}
+  splashSound: {fileID: 0}
+  playerBoundingBoxSize: {x: 1, y: 1}
+  playerBoundingBoxCenter: {x: 0, y: 0}
+  playerBuoyantForceScale: 0.5
+  showPolygon: 0
+  showForces: 0
+  neighborVertVelocityScale: 0.5
+  sineWaveVelocityScale: 0.05
+  overlapSphereRadius: 0.05
+  springSimulation: 1
+  topEdgeYOffset: 0
+  bottomEdgeYOffset: 0
+  leftEdgeXOffset: 0
+  rightEdgeXOffset: 0
+  particleSystemPosOffset: {x: 0, y: 0, z: 0}
+  particleSystemSortingLayerName: Default
+  particleSystemOrderInLayer: 0
+  meshSegmentsPerWaterLineSegment: 4
+  showClippingPlolygon: 0
+  waterFlow: 0
+  flowAngle: 0
+  waterFlowForce: 5
+  useAngles: 0
+  waveAmplitude: 0.1
+  waveStretch: 1
+  wavePhaseOffset: 0.2
+  controlPointVelocity: 0
+  useControlPoints: 0
+  randomValues: 1
+  particleSystemSorting: 0
+--- !u!61 &738679149261986572
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144558413887161966}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.25}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10, y: 6.5}
+  m_EdgeRadius: 0
